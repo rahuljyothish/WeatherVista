@@ -22,7 +22,7 @@ A simple weather app built with **Vite**, **React**, and **Tailwind CSS** that a
 ### 2. install dependencies
 
 npm install
-# or if you're using yarn
+ or if you're using yarn
 yarn install
 
 
@@ -46,6 +46,6 @@ Replace your-api-key-here with your actual API key.
 Now that everything is set up, you can start the development server with:
 
 npm run dev
-# or if you're using yarn
+or if you're using yarn
 yarn dev
 
