@@ -1,11 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+<<<<<<< HEAD
 @layer base {
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap");
 
   * {
     font-family: "Poppins", sans-serif;
   }
+=======
+@layer base{
+ * {
+  font-family: 'Poppins',sans-serif;
+  }  
+>>>>>>> 5b56d7a5297d980e0b43b53aa7e4b0d8fb228dd5
 }
