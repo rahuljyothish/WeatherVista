@@ -8,7 +8,9 @@ const WeatherDetails = ({ location }) => {
 
   useEffect(() => {
     const fetchWeather = async () => {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`);
+      const response = await fetch(
+        `https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=${apiKey}&units=metric`
+      );
       const data = await response.json();
       setWeatherData(data);
     };
